@@ -7,7 +7,7 @@ async function fetchArticle() {
   const endpoint = 'https://api.sandbox.uscannenberg.arcpublishing.com/site/v3/website';
   const website = 'annenbergmedia';
   const contentAlias = 'latest-news-collection';
-  const size = 10;  // replace with the number of articles you want to fetch
+  const size = 10;  
   console.log(API_KEY)
   try {
     const response = await fetch(`${endpoint}?website=${website}&size=${size}`, {
